@@ -13,7 +13,11 @@ class ApiController < ApplicationController
   end
 
   def api_session_token_authenticate!
-    return _not_authorized unless _authorization_header && current_api_session_token.valid?
+    logger.debug '### checking authentication'
+    logger.debug "_authorization_header #{_authorization_header}"
+    logger.debug "valid session token? #{current_api_session_token.valid?}"
+    logger.debug "current user #{current_user}"
+    return _not_authorized unless _authorization_header && current_api_session_token.valid? && current_user
   end
 
   def current_api_session_token
