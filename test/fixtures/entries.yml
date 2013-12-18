@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  activity_id: 1
+  score: 1
+  hours: 1.5
+  date: 2013-12-18
+  user_id: 1
+
+two:
+  activity_id: 1
+  score: 1
+  hours: 1.5
+  date: 2013-12-18
+  user_id: 1

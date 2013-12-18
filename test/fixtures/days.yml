@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2013-12-18
+  score: 1
+  notes: MyText
+  user_id: 1
+
+two:
+  date: 2013-12-18
+  score: 1
+  notes: MyText
+  user_id: 1
